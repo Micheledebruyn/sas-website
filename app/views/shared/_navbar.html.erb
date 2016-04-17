@@ -1,0 +1,38 @@
+<div class="navbar-Qhome9">
+
+<%#= link_to root_path,  %>
+  <!-- Logo -->
+  <%= link_to root_path, class: "navbar-Qhome9-logo" do %>
+  <%= image_tag "logo.png" %>
+  <% end %>
+
+  <!-- Right Navigation -->
+  <div class="navbar-Qhome9-right hidden-xs hidden-sm">
+
+
+    <!-- Profile picture and dropdown -->
+    <div class="navbar-Qhome9-item">
+      <div class="dropdown">
+        <img src="http://placehold.it/50x50" class="avatar dropdown-toggle" id="navbar-Qhome9-menu" data-toggle="dropdown">
+        <ul class="dropdown-menu dropdown-menu-right navbar-Qhome9-dropdown-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Réhabilitation</a></li>
+          <li><a href="#">Meubles</a></li>
+          <li><a href="#">Design d'intérieur</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dropdown appearing on mobile only -->
+<!--   <div class="navbar-Qhome9-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-Qhome9-dropdown-menu">
+        <li><a href="#">Some mobile link</a></li>
+        <li><a href="#">Other one</a></li>
+        <li><a href="#">Other one</a></li>
+      </ul>
+    </div>
+  </div>
+</div> -->
