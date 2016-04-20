@@ -1,5 +1,5 @@
 /* Main class */
-.navbar-Qhome9 {
+.navbar-sas {
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
   background: white;
   transition: all 0.3s ease;
@@ -11,32 +11,40 @@
 }
 
 /* Optional class to fix the navbar on top */
-.navbar-Qhome9-fixed {
+.navbar {
   position: fixed;
-  left: 0px;
+  right: 0px;
   top: 0px;
   z-index: 1;
   width: 100%;
 }
 
-/* Navbar logo */
-.navbar-Qhome9-logo img {
-  width: 150px;
+.navbar-item {
+  margin: 7px;
 }
 
-/* Navbar right section (with form, links, button) */
-.navbar-Qhome9-right {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.navbar-item:hover{
+  text-decoration: none;
+  color: black;
 }
 
-/* Navbar item */
-.navbar-Qhome9-item {
-  flex: 0 1 auto;
-  cursor: pointer;
-  padding: 0 20px;
+.navbar-link a {
+  text-decoration: none;
+  color: #5A5C51;
+  transition: all 100ms ease;
 }
+
+.navbar-link {
+  border-bottom: 0px solid black;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid transparent;
+  text-decoration: none;
+}
+
+
+
 
 /* Navbar dropdown menu */
 .navbar-wagon-dropdown-menu {
