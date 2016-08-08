@@ -1,22 +1,14 @@
-<div class="wrapper-home">
-	<div class="home">
-		<div class="home-content">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-6">
-						<div class="text-home">
-							<h1>Saskia Roelofs</h1>
-							<p>Coach and social worker</p>
-							<button type="button" class="btn btn-outline-secondary">Secondary</button>
-						</div>
-					</div>
-					<div class="col-xs-6">
-						<div class="image-home">
-							<%= image_tag "http://placehold.it/350x500" %>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+<div class="homepage-hero-module">
+    <div class="video-container">
+        <div class="filter"></div>
+        <video autoplay loop class="fillWidth">
+            <source src="<%= video_path 'Sunset-Lapse.mp4' %>" type="video/mp4" />
+                Your browser does not support the video tag. I suggest you upgrade your browser.
+          <source src="<%= video_path 'Sunset-Lapse.webm' %>" type="video/webm" />
+                Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+        <div class="poster hidden">
+            <%= image_tag 'Sunset-Lapse.jpg' %>
+        </div>
+    </div>
 </div>
