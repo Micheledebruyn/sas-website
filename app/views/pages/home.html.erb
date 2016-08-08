@@ -1,14 +1,17 @@
 <div class="homepage-hero-module">
-    <div class="video-container">
-        <div class="filter"></div>
-        <video autoplay loop class="fillWidth">
-            <source src="<%= video_path 'Sunset-Lapse.mp4' %>" type="video/mp4" />
-                Your browser does not support the video tag. I suggest you upgrade your browser.
-          <source src="<%= video_path 'Sunset-Lapse.webm' %>" type="video/webm" />
-                Your browser does not support the video tag. I suggest you upgrade your browser.
+  <div class="video-container">
+    <div class="filter"></div>
+    <video autoplay loop class="fillWidth">
+      <source src="<%= video_path 'Sunset-Lapse.mp4' %>" type="video/mp4" />
+        Your browser does not support the video tag. I suggest you upgrade your browser.
+        <source src="<%= video_path 'Sunset-Lapse.webm' %>" type="video/webm" />
+          Your browser does not support the video tag. I suggest you upgrade your browser.
         </video>
-        <div class="poster hidden">
-            <%= image_tag 'Sunset-Lapse.jpg' %>
+        <div class="overlay">
+          <h2>hshshshshshsh</h2>
         </div>
+        <div class="poster hidden">
+          <%= image_tag 'Sunset-Lapse.jpg' %>
+        </div>
+      </div>
     </div>
-</div>
