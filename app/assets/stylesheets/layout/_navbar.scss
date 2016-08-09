@@ -7,7 +7,16 @@
   padding: 0px 30px;
   align-items: center;
   justify-content: space-between;
-  color: #fafafa;
+  color: #E5EEC1;
+}
+
+.navbar-wagon-brand{
+  color: #E5EEC1;
+}
+
+.navbar-wagon-brand:hover {
+  color: #5A5050;
+  text-decoration: none;
 }
 
 .navbar-wagon-fixed {
@@ -32,40 +41,24 @@
 
 // Color choices need to be changed here
 .navbar-wagon-link {
-  color: #fafafa;
-  font-size: 14px;
+  color: #E5EEC1;
+  font-size: 16px;
 }
 .navbar-wagon-link:hover {
-  color: blue;
+  color: #5A5050;
   text-decoration: none;
 }
-
-// .navbar-wagon-button {
-//   margin-left: 10px;
-//   padding: 0 20px;
-//   border-radius: 20em;
-//   line-height: 40px;
-//   background-color: #D23333;
-//   color: white;
-//   font-size: 14px;
-//   border: 2px solid #D23333;
-// }
-// .navbar-wagon-button:hover {
-//   color: white;
-//   background: #D23333;
-//   border-color: #ac2626;
-// }
 
 /* Navbar dropdown menu */
 .navbar-wagon-dropdown-menu {
   margin-top: 15px;
-  box-shadow: 1px 1px 4px #E6E6E6;
-  border-color: #E6E6E6;
+  box-shadow: 1px 1px 4px #E5EEC1;
+  border-color: #E5EEC1;
 }
 .navbar-wagon-dropdown-menu li > a {
   transition: color 0.3s ease;
   font-weight: lighter !important;
-  color: #999999 !important;
+  color: #5A5050 !important;
   font-size: 15px !important;
   line-height: 22px !important;
   padding: 10px 20px;
@@ -83,6 +76,6 @@
   top: -6px;
   background-color: white;
   transform: rotate(45deg);
-  border-left: 1px solid #E6E6E6;
-  border-top: 1px solid #E6E6E6;
+  border-left: 1px solid #E5EEC1;
+  border-top: 1px solid #E5EEC1;
 }

@@ -4,6 +4,8 @@
 .home-content {
   padding-top: 150px;
 }
+
+// CSS on video homepage
 .homepage-hero-module {
   border-right: none;
   border-left: none;
@@ -47,6 +49,7 @@
   width: 100%;
 }
 
+// CSS content home page
 .home-titlecontainer {
   text-align: center;
   position: absolute;
@@ -55,22 +58,12 @@
   left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  color: #fff;
+  color: #E5EEC1;
   width: 100%;
   margin-bottom: 15px;
+  width: 750px;
 }
 
-.btn-medium {
-  color: #fafafa;
-  border: 2px solid #fafafa;
-  padding: 10px 15px;
-  border-radius: 50px;
-  font-weight: lighter;
-  opacity: 0.6;
-}
-
-.btn-medium:hover {
-  opacity: 1;
-  text-decoration: none;
-  color: #fafafa;
+.home-titlecontainer strong {
+  color: #5A5050;
 }
