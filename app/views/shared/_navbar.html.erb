@@ -1,23 +1,24 @@
 <div class="navbar-wagon navbar-wagon-fixed">
   <!-- Logo -->
   <div class= "navbar-wagon-brand">
-    <h1>Saskia Roelofs</h1>
+    <h1>SR</h1>
   </div>
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
 
     <!-- Text link -->
-    <a href="" class="navbar-wagon-item navbar-wagon-link">About</a>
+    <%= link_to "Over mij", about_path, class: 'navbar-wagon-item navbar-wagon-link'%>
 
     <!-- Text link -->
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Experience</a>
+    <%= link_to "Ervaring", about_path, class: 'navbar-wagon-item navbar-wagon-link'%>
 
     <!-- Text link -->
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Contact</a>
+        <%= link_to "Contact", about_path, class: 'navbar-wagon-item navbar-wagon-link'%>
 
     <!-- Button (call-to-action) -->
-    <a href="" class="navbar-wagon-item navbar-wagon-button btn">Resume</a>
-  </div>
+        <%= link_to "C.V.", about_path, class: 'btn-medium'%>
+
+    </div>
 
   <!-- Dropdown appearing on mobile only -->
   <div class="navbar-wagon-item hidden-md hidden-lg">
