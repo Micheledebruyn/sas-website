@@ -1,14 +1,13 @@
-
 .btn-medium {
-  color: #E5EEC1;
-  border: 2px solid #E5EEC1;
+  background-color: #b5b5b5;
+  color: $black;
   padding: 12px 21px;
-  border-radius: 50px;
+  border-radius: 5px;
   font-weight: bold;
 }
 
 .btn-medium:hover {
   opacity: 1;
   text-decoration: none;
-  color: #5A5050;
+  color: $white;
 }
