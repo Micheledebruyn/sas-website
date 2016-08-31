@@ -35,10 +35,11 @@
   position: absolute;
 }
 .video-container .filter {
-  z-index: 0;
+  z-index: 2;
   position: absolute;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(51, 15, 15, 0.4);
   width: 100%;
+  height: 100%;
 }
 .video-container video {
   position: absolute;
@@ -65,5 +66,5 @@
 }
 
 .home-titlecontainer strong {
-  color: #5A5050;
+  color: $black;
 }
