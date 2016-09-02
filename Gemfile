@@ -43,4 +43,5 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'font-awesome-sass'
 gem 'simple_form'
 gem "autoprefixer-rails"
-gem 'polymer', '~> 1.0.0.beta.7'
+gem 'mail_form', '~> 1.5', '>= 1.5.1'
+gem "letter_opener", group: :development

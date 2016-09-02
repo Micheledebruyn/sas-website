@@ -1,8 +1,22 @@
 .content-about {
-    text-align: wide;
-    height: 50%;
-    margin-top: 260px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+  text-align: wide;
+  height: 50%;
+  margin-top: 260px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.pages-about {
+  background-color: $white;
+}
+
+.content-about {
+  background-color: white;
+  padding: 50px 50px;
+  border-radius: 20px;
+}
+
+.social-media-links {
+  margin-top: 25px;
 }

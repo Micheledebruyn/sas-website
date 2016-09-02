@@ -3,11 +3,11 @@
   color: $black;
   padding: 12px 21px;
   border-radius: 5px;
-  font-weight: bold;
+  font-weight: 700;
+  font-size: 18px;
 }
-
 .btn-medium:hover {
   opacity: 1;
   text-decoration: none;
-  color: $white;
+  color: $blue;
 }
